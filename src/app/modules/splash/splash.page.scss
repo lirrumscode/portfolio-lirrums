@@ -1,0 +1,26 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles for the splash page.
+// -----------------------------------------------------------------------------
+.containt {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  .img {
+    width: 40%;
+    animation: zoominout 3s infinite;
+  }
+}
+
+@keyframes zoominout {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.2, 1.2);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}

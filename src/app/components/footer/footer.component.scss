@@ -1,0 +1,41 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles for the footer component.
+// -----------------------------------------------------------------------------
+@keyframes zoominout {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.2, 1.2);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+footer {
+  background: #222428;
+  padding: 20px;
+  .title-footer {
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    animation: zoominout 3s infinite;
+  }
+  .txt-footer {
+    color: #fff;
+    text-align: center;
+  }
+  .txt-copy {
+    color: #fff;
+    text-align: center;
+  }
+  .column-icons {
+    display: block;
+    margin: auto;
+    ion-icon {
+      color: #fff;
+      font-size: 30px;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles for the testimonials component.
+// -----------------------------------------------------------------------------
+#testimonials {
+  background: #222428;
+}
+.title-testimonials {
+  color: #fff;
+  padding-left: 10px;
+  font-size: 35px;
+}
+ion-item {
+  --background: #222428 !important;
+}
+ion-label {
+  --color: #f25f4c !important;
+  font-weight: bold;
+}
+.txt-testimonials {
+  color: #fff;
+  padding-left: 15px;
+  padding-right: 15px;
+}

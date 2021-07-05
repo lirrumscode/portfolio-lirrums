@@ -1,0 +1,38 @@
+<app-header></app-header>
+<ion-content [fullscreen]="true">
+  <section id="about">
+    <ion-grid>
+      <ion-row>
+        <ion-col size="12">
+          <img
+            src="assets/img/img.png"
+            alt="img"
+            loading="lazy"
+            class="img-profile"
+          />
+        </ion-col>
+        <ion-col size="12">
+          <h1 class="title">
+            ¡Hola a todos! <br />
+            <span>Soy Antonio Pereira</span>
+          </h1>
+          <p class="txt">
+            Developer que le encanta implementar diseños que 
+            inspiran y atraen a las personas.
+          </p>
+        </ion-col>
+        <ion-col size="12">
+          <a class="container-icon">
+            <ion-icon name="chevron-down-circle-outline" class="icon"></ion-icon>
+          </a>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </section>
+  <app-projects></app-projects>
+  <app-services></app-services>
+  <app-testimonials></app-testimonials>
+  <app-contact></app-contact>
+  <app-footer></app-footer>
+</ion-content>
+

@@ -1,0 +1,51 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles for the home page.
+// -----------------------------------------------------------------------------
+@keyframes zoominout {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.2, 1.2);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+.img-profile {
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+#about {
+  background: #222428;
+  height: 100vh;
+}
+.title {
+  color: #fff;
+  font-weight: bold;
+  padding-left: 10px;
+  margin-top: 0px;
+  font-size: 35px;
+  margin-bottom: 0px;
+  span {
+    font-weight: 300;
+    font-size: 30px;
+  }
+}
+.txt {
+  color: #fff;
+  font-size: 25px;
+  padding-left: 10px;
+  font-weight: 300;
+}
+.icon {
+  color: #ff8906 !important;
+  font-size: 40px;
+  margin-left: 10px;
+  animation: zoominout 3s infinite;
+}
+.container-icon {
+  text-decoration: none;
+}
