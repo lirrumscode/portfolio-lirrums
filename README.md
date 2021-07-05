@@ -3,7 +3,6 @@ _This little project is about a serie of projects for the company **LeonidasEste
 > **Frontend web developer,** and it's inspire in the project:
 <br>
 <img src="https://platform-api-production.s3.amazonaws.com/projects/thumbs/9e12b532-d76a-444a-a875-5b984e0d9ec8/Thumbnail-portafolio_antonio.jpg" alt="img">
-<br>
 
 ## Installation and initialization 🔧
 
